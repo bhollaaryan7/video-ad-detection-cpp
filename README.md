@@ -58,16 +58,19 @@ video-ad-detection-cpp/
 
 ### 1. Basic Test (No Dependencies)
 
-```bash
+
 g++ -std=c++17 src/test.cpp -o test
 ./test
+
 2. Dependencies Required
 
 The following components require external libraries:
 
 OpenCV → for motion detection
 Dlib → for SVM classification
+
 3. Example Compilation Commands
+
 # SVM (requires Dlib)
 g++ -std=c++17 src/svm_classifier.cpp -o svm -ldlib
 
@@ -76,7 +79,7 @@ g++ -std=c++17 src/motion_detection.cpp -o motion `pkg-config --cflags --libs op
 
 Note: Ensure OpenCV and Dlib are installed and properly linked before compiling.
 
-Key Learnings
+## Key Learnings
 Translating ML pipelines into C++ is non-trivial
 Performance vs flexibility trade-offs
 Challenges in embedded deployment environments
