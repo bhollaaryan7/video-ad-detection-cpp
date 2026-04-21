@@ -1,0 +1,16 @@
+# Mac
+.DS_Store
+
+# Build files
+*.o
+*.out
+*.exe
+
+# Sensitive / large
+*.qcow2
+*.img
+*.bin
+
+# Keys
+*.key
+ssh_*
