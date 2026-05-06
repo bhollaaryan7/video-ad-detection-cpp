@@ -1,5 +1,7 @@
 # Video Advertisement Detection – C++ Deployment
 
+(This is the optimized deployment of the research pipeline found here: https://github.com/bhollaaryan7/video-ad-detection-ml)
+
 ## Overview
 
 This project focuses on deploying video advertisement detection logic in C++, building on a machine learning pipeline developed in Python.
